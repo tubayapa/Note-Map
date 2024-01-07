@@ -13,6 +13,10 @@
 
   <p><strong>GeoNote</strong> is a web application that allows users to create and manage location-based notes on an interactive map. It leverages the OpenStreetMap API for mapping functionality and provides an intuitive interface for users to mark points of interest, set reminders, and organize their geographical notes.</p>
 
+  <h2><strong>GIF</strong></h2>
+  
+![ezgif com-optimize](https://github.com/tubayapa/Note-Map/assets/147662888/caecdc09-fb79-4ff1-88b5-89247c12d193)
+
   <h2><strong>Features</strong></h2>
 
   <ul>
