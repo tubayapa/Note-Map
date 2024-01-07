@@ -15,7 +15,8 @@
 
   <h2><strong>GIF</strong></h2>
   
-![ezgif com-optimize](https://github.com/tubayapa/Note-Map/assets/147662888/caecdc09-fb79-4ff1-88b5-89247c12d193)
+![ezgif com-optimize](https://github.com/tubayapa/Note-Map/assets/147662888/f7071672-7a9a-4cf9-9c21-87a93e6f282c)
+
 
   <h2><strong>Features</strong></h2>
 
