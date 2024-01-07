@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Note Map</title>
+    <!-- leaflet.css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <!-- bootsrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <!-- bizim css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- sol menü -->
+    <div class="wrapper">
+      <aside>
+        <!-- başlık -->
+        <div class="title">
+          <span>Notes</span>
+          <i id="closeBtn"onclick="myToggle()" class="bi bi-x-circle-fill"></i>
+          <i id="listBtn"  class="bi bi-list"></i>
+        </div>
+        <!-- form alanı -->
+        <form>
+          <div>
+            <label>Title:</label>
+            <input placeholder="e.g. Job Address" type="text" />
+          </div>
+
+          <div>
+            <label>Add Date:</label>
+            <input type="date" />
+          </div>
+
+          <div>
+            <label>Status:</label>
+            <select>
+              <option value="goto">Visiting</option>
+              <option value="park">Parking</option>
+              <option value="home">Home</option>
+              <option value="job">Job</option>
+            </select>
+          </div>
+
+          <div class="buttons">
+            <button type="button">Cancel</button>
+            <button type="submit">Add</button>
+          </div>
+        </form>
+
+        <!-- note listesi -->
+        <ul>
+          <!-- <li>
+            <div class="info">
+              <p>BAŞLIK</p>
+              <p>
+                <span>Tarih:</span>
+                <span>12-01</span>
+              </p>
+              <p>
+                <span>Durum:</span>
+                <span>İş</span>
+              </p>
+            </div>
+            <div class="icons">
+              <i id="fly" class="bi bi-airplane-fill"></i>
+              <i class="bi bi-trash3-fill"></i>
+            </div>
+          </li> -->
+        </ul>
+      </aside>
+    </div>
+
+    <!-- harita -->
+    <div id="map"></div>
+
+    <!-- leaflet.js -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
